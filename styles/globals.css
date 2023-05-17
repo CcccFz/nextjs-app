@@ -16,12 +16,20 @@
   }
 }
 
+* {
+  font-family: 'Barlow-Regular','PingFang SC',Helvetica,Arial,sans-serif;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+  background-color: #F2F2F2;
 }
